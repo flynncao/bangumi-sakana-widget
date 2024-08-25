@@ -26,7 +26,7 @@
 		  position: fixed;
 			bottom: 22px;
 			left: 50px;
-			     z-index: 91;
+			z-index: 91;
 		}`)
   el.id = 'sakana-widget'
 
@@ -40,6 +40,7 @@
     const takina = SakanaWidget.getCharacter('takina')
     SakanaWidget.registerCharacter('takina-default', takina)
     new SakanaWidget({ character: 'takina' }).mount('#sakana-widget')
+    console.log('SakanaWidget is ready!')
   }
   document.head.appendChild(css)
   document.body.appendChild(script)
