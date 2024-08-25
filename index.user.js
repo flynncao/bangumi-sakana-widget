@@ -14,6 +14,7 @@
 // ==/UserScript==
 
 ;(async function () {
+  console.log('Sakana-Widget is loading...')
   if (window.location !== window.parent.location) {
     // if the script is running in an iframe, cancel the execution
     return
