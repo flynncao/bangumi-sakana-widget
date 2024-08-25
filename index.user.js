@@ -14,7 +14,6 @@
 // ==/UserScript==
 
 ;(async function () {
-  console.log('Sakana-Widget is loading...')
   if (window.location !== window.parent.location) {
     // if the script is running in an iframe, cancel the execution
     return
@@ -23,8 +22,8 @@
   const script = document.createElement('script')
   const css = document.createElement('link')
   document.styleSheets[0].insertRule(`
-	                 	#sakana-widget {
-		                      	position: fixed;
+	 #sakana-widget {
+		  position: fixed;
 			bottom: 22px;
 			left: 50px;
 			     z-index: 91;
