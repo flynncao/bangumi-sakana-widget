@@ -1,23 +1,23 @@
 {
-	"name": "bangumi-sakana-widget",
-	"module": "index.user.js",
-	"type": "module",
-	"keywords": [
-		"bangumi",
-		"anime"
-	],
-	"devDependencies": {
-		"lint-staged": "^15.2.9",
-		"prettier": "^3.3.3",
-		"simple-git-hooks": "^2.11.1"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
-	"simple-git-hooks": {
-		"pre-commit": "pnpm lint-staged"
-	},
-	"lint-staged": {
-		"*.js": "prettier --write"
-	}
+  "name": "bangumi-sakana-widget",
+  "module": "index.user.js",
+  "type": "module",
+  "keywords": [
+    "bangumi",
+    "anime"
+  ],
+  "devDependencies": {
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
+    "simple-git-hooks": "^2.11.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  }
 }

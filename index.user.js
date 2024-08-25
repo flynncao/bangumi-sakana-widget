@@ -26,9 +26,10 @@
 		                      	position: fixed;
 			bottom: 22px;
 			left: 50px;
-			z-index: 91;
+			     z-index: 91;
 		}`)
   el.id = 'sakana-widget'
+
   document.body.appendChild(el)
   css.rel = 'stylesheet'
   css.href = 'https://cdn.jsdelivr.net/npm/sakana-widget-z@1.0.3/lib/sakana.min.css'
