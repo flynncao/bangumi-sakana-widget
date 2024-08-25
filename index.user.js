@@ -1,9 +1,7 @@
 // ==UserScript==
-// @name  Bangumi Episode Enhance
+// @name  Bangumi Sakana Widget
 // @version 0.0.1
 // @description Introduce Sakana-Widget to Bangumi!
-// @updateURL
-// @downloadURL
 // @author Flynn Cao
 // @namespace https://flynncao.xyz/
 // @match  https://bangumi.tv/*
