@@ -1,0 +1,23 @@
+{
+	"name": "bangumi-sakana-widget",
+	"module": "index.user.js",
+	"type": "module",
+	"keywords": [
+		"bangumi",
+		"anime"
+	],
+	"devDependencies": {
+		"@types/bun": "latest",
+		"lint-staged": "^15.2.9",
+		"simple-git-hooks": "^2.11.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "pnpm lint-staged"
+	},
+	"lint-staged": {
+		"*.js": "prettier --write"
+	}
+}
