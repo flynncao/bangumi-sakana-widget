@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name  Bangumi Sakana Widget
-// @version 0.0.1
+// @version 0.0.2
 // @description Introduce Sakana-Widget to Bangumi!
 // @author Flynn Cao
-// @namespace https://flynncao.xyz/
+// @updateURL  https://github.com/flynncao/bangumi-sakana-widget/raw/main/index.user.js
+// @downloadURL https://github.com/flynncao/bangumi-sakana-widget/raw/main/index.user.js
+// @namespace https://flynncao.uk/
 // @match  https://bangumi.tv/*
 // @match  https://chii.in/*
 // @match  https://bgm.tv/*
